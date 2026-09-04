@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 20px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    div {
+        overflow: auto;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        padding: 25px;
+    }
+
+    nav ul {
+        gap: 25px;
+    }
+
+    div {
+        overflow: auto;
+        font-size: 16px;
+    }
+}
+
+
+
+body{
+    margin: 0;
+    background-image: url(images/WhatsApp\ Image\ 2026-09-04\ at\ 2.36.28\ PM.jpeg);
+}
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+   
+    
+}
+
+.header{
+    background-color: white;
+   box-shadow: 0 2px 8px rgb(77, 67, 67);
+    margin-top: 0%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.nav a { 
+    text-decoration: none;
+    color: rgb(85, 77, 77);
+    
+}
+nav a:hover {
+    color: red;
+    background-color:green;
+
+}
+nav a:active{
+    color: yellow;
+}
+.box1{
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    padding-top: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    margin: 100px;
+    padding-left: 40px;
+    box-shadow: 0 2px 8px rgb(77, 67, 67);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+
+
+    
+    
+}
+
