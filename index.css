@@ -62,8 +62,8 @@ body{
     
 }
 nav a:hover {
-    color: red;
-    background-color:green;
+    color: orange;
+    
 
 }
 nav a:active{

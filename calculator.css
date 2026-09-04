@@ -72,3 +72,38 @@ button:nth-child(17) {
         height: 55px;
     }
 }
+.header {
+    background-color: white;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6%;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.header h2 {
+    color: #d8893a;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+.nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #555;
+    font-size: 12px;
+}
+
+.nav a:hover {
+    color:orange;
+}
