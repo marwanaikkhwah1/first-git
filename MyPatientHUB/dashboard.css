@@ -698,3 +698,14 @@ gap: 20px;
 .health-gray {
     background-color: #9e9e9e;
 }
+.sidebar.collapsed {
+    width: 80px;
+}
+
+.sidebar.collapsed .logo span:last-child,
+.sidebar.collapsed .link span:last-child {
+    display: none;
+}
+body.sidebar-collapsed {
+    grid-template-columns: 80px 1fr;
+}
