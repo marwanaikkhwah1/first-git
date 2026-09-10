@@ -1,4 +1,4 @@
-const = function validation() {
+const validation = function validation() {
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
@@ -44,4 +44,9 @@ const signIn = document.querySelector(".btn1");
 
 signIn.addEventListener("click", function () {
     validation();
+});
+const signInBtn = document.getElementById("signInBtn");
+
+signInBtn.addEventListener("click", function () {
+    window.location.href = "../MyPatientHUB/dashboard.html";
 });
