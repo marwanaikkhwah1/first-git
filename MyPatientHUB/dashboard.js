@@ -7,3 +7,8 @@ menuBtn.addEventListener("click", function () {
     sidebar.classList.toggle("collapsed");
     document.body.classList.toggle("sidebar-collapsed");
 });
+const logoutBtn = document.getElementById("logoutBtn");
+
+logoutBtn.addEventListener("click", function () {
+    window.location.href = "../Medical Clinic/clinic.html";
+});
