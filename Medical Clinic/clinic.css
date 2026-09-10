@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.login{ 
+    height:375px;
+    margin: 6px 10px 0 10px;
+    background-image: url(images/background\ page.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+
+    border-radius: 10px;
+    position: relative;
+}
+
+.form{
+    height:600px  ;
+
+    width: 450px;
+    background-color:white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+
+    display: block;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+   
+
+
+
+}
+
+input[type="email"],
+input[type="password"]{
+    display: block;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 380px;
+    border-radius: 10px;
+    border-color: white
+
+    
+    
+}
+
+
+.form-actions{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+
+.remember{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+
+.btn1{
+    height: 40px;
+    width: 380px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(to right, rgb(239, 68, 133), purple);
+
+
+}
+
+.btn2{
+     height: 40px;
+    width: 380px;
+   color: white;
+    border-radius: 10px;
+ background: linear-gradient(to right,rgb(95, 158, 239), rgb(48, 19, 231));
+
+}
+.form h2 {
+    margin-top: 30px;
+}
+
+footer { 
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 0;
+    margin-top: 450px;
+    color: gray;
+}
+
+
+.login h1,
+.login p{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+img{
+    border: 5px solid white;
+}
+
+.form-actions , .btn1 , .btn2{
+    margin-top: 10px;
+}
+
+.form-actions a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+
+input[type="radio"]{
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  
+}
+
+input[value="remember me"]{
+    color: gray;
+}
+
