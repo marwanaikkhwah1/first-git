@@ -143,3 +143,54 @@ input[value="remember me"]{
     color: gray;
 }
 
+@media screen and (max-width: 768px) {
+
+    .login {
+        height: 300px;
+        margin: 5px;
+        padding-top: 20px;
+    }
+
+    .login h1 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    .login p {
+        font-size: 14px;
+        margin: 20px;
+    }
+
+    .form {
+        width: 90%;
+        height: auto;
+        top: 170px;
+        padding-bottom: 30px;
+    }
+
+    .form > div {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    .btn1,
+    .btn2 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form-actions {
+        width: 100%;
+        gap: 5px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 450px;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
