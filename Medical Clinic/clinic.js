@@ -6,14 +6,14 @@ const validation = function validation() {
     const passwordError = document.getElementById("passwordError");
     const successMessage = document.getElementById("successMessage");
 
-    // Clear old messages
+
     emailError.textContent = "";
     passwordError.textContent = "";
     successMessage.textContent = "";
 
     let isValid = true;
 
-    // Email validation
+  
     if (email === "") {
         emailError.textContent = "Please enter your email.";
         isValid = false;
@@ -23,7 +23,7 @@ const validation = function validation() {
         isValid = false;
     }
 
-    // Password validation
+  
     if (password === "") {
         passwordError.textContent = "Please enter your password.";
         isValid = false;
@@ -33,7 +33,7 @@ const validation = function validation() {
         isValid = false;
     }
 
-    // Final result
+    
     if (isValid) {
         successMessage.textContent = "Sign in successful!";
     }
